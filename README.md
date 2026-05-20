@@ -21,42 +21,80 @@ This project performs detailed analysis on HR data to understand employee demogr
 
 ---
 
-## 🔍 Analysis Performed
+## 📊 Dashboard Preview
 
-### 1. Univariate Analysis
-- Distribution of numerical variables
-- Histograms and density plots
-- Understanding data spread and skewness
+![HR Analysis Dashboard](images/dashboard.png)
 
-### 2. Categorical Analysis
-- Gender distribution
-- Department-wise employee count
-- Bar chart visualizations
-
-### 3. Bivariate Analysis
-- Salary vs Gender comparison
-- Salary vs Department
-- Box plots for trend analysis
-
-### 4. Correlation Analysis
-- Heatmap to identify relationships between variables
-- Understanding feature dependencies
-
-### 5. Feature Analysis
-- Salary distribution insights
-- Age and tenure impact
-
-### 6. Outlier Detection
-- Boxplots to detect anomalies
-- Identification of extreme values
-
-### 7. Pairplot Analysis
-- Multi-variable relationship visualization
-- Pattern and trend discovery
+> 📌 *Note: Add your exported notebook/chart image inside an `images` folder and name it `dashboard.png`.*
 
 ---
 
-## 📊 Key Insights
+## 🔍 Analysis & Chart Descriptions
+
+### 1. 📈 Univariate Analysis
+![Univariate](images/univariate.png)
+
+- Shows distribution of numerical variables like salary, age, and tenure  
+- Histograms reveal data spread and skewness  
+- Helps understand overall data behavior  
+
+---
+
+### 2. 👥 Categorical Analysis
+![Categorical](images/categorical.png)
+
+- Displays employee distribution by gender and department  
+- Bar charts highlight dominant categories  
+- Useful for workforce segmentation  
+
+---
+
+### 3. 🔄 Bivariate Analysis
+![Bivariate](images/bivariate.png)
+
+- Compares salary across gender and departments  
+- Box plots identify variation and trends  
+- Highlights inequality or consistency in pay  
+
+---
+
+### 4. 🔗 Correlation Analysis
+![Correlation](images/correlation.png)
+
+- Heatmap shows relationships between numerical variables  
+- Identifies strong positive/negative correlations  
+- Helps in feature understanding  
+
+---
+
+### 5. 📊 Feature Analysis
+![Feature](images/feature.png)
+
+- Focuses on salary distribution and patterns  
+- Shows impact of age and tenure  
+- Helps in performance and compensation insights  
+
+---
+
+### 6. 🚨 Outlier Detection
+![Outliers](images/outliers.png)
+
+- Detects extreme values using boxplots  
+- Identifies anomalies in salary and age  
+- Important for data cleaning and accuracy  
+
+---
+
+### 7. 🔍 Pairplot Analysis
+![Pairplot](images/pairplot.png)
+
+- Shows multi-variable relationships  
+- Helps identify patterns and clusters  
+- Useful for deeper data exploration  
+
+---
+
+## 📈 Key Insights
 
 - Salary distribution follows a near-normal pattern  
 - Certain departments have higher employee concentration  
@@ -86,6 +124,16 @@ Hirelytics/
 ├── notebook/
 │   └── hr_analysis.ipynb
 │
+├── images/
+│   ├── dashboard.png
+│   ├── univariate.png
+│   ├── categorical.png
+│   ├── bivariate.png
+│   ├── correlation.png
+│   ├── feature.png
+│   ├── outliers.png
+│   └── pairplot.png
+│
 └── README.md
 ```
 
@@ -100,4 +148,3 @@ To extract meaningful insights from HR data and support data-driven decision-mak
 ## 📌 Conclusion
 
 This project demonstrates how data analysis can be used to understand employee trends, identify patterns, and improve HR decision-making using Python-based tools.
-
